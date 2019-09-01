@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <script src="https://kit.fontawesome.com/e04f78490a.js"></script>
-    <title>Chats | Kakao</title>
+    <title>Chat | Kakao</title>
   </head>
   <body>
     <div class="status-bar">
@@ -23,7 +23,10 @@
     </div>
     <header class="header">
       <div class="header__column">
-        <h1 class="header__title">Chats</h1>
+        <a href="index.html">
+          <i class="fas fa-arrow-left"></i>
+        </a>
+        <h1 class="header__title">정창곤입니다</h1>
       </div>
       <div class="header__column">
         <span class="header__icon">
@@ -34,5 +37,47 @@
         </span>
       </div>
     </header>
+    <main class="chat">
+      <ul class="chat__messages">
+        <li class="incoming__message message">
+          <img src="images/avatar.jpg" class="message__avatar" />
+          <div class="message__content">
+            <span class="message__bubble">
+              A lot of congrats on your engagement
+            </span>
+            <span class="message__author">
+              정창곤입니다
+            </span>
+          </div>
+        </li>
+        <li class="sent__message message">
+          <div class="message__content">
+            <span class="message__bubble">
+              Thank you see you soon!
+            </span>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <div class="chat__write--container">
+      <input
+        type="text"
+        class="chat__write"
+        placeholder="Send message"
+        class="chat__write-input"
+      />
+    </div>
+    <div class="chat__icon-left chat__icon">
+      <i class="far fa-plus-square"></i>
+    </div>
+
+    <div class="chat__icon-right chat__icon">
+      <span class="chat__write-icon">
+        <i class="far fa-smile-wink"></i>
+      </span>
+      <span class="chat__write-icon">
+        <i class="fas fa-microphone"></i>
+      </span>
+    </div>
   </body>
 </html>
