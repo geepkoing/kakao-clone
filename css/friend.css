@@ -45,3 +45,47 @@
 .friend .chat__timestamp {
   font-size: 12px;
 }
+
+.friend .friend__now-listening {
+  padding: 5px 10px;
+  border: 2px solid #1dba4c;
+  border-radius: 10px;
+  font-size: 11px;
+}
+
+.friend .friend__now-listening span {
+  opacity: 0.6;
+}
+
+.friend .friend__now-listening i {
+  font-size: 10px;
+  margin-left: 2px;
+  color: #1dba4c;
+}
+
+.friend .chat__status {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.friend .chat__badge {
+  background-color: #e26141;
+  color: #fff2e6;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  font-size: 9px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3px;
+}
+
+.friend .friend__add-btn {
+  font-size: 10px;
+  background-color: #f5f5f5;
+  padding: 8px 10px;
+  border-radius: 4px;
+}
