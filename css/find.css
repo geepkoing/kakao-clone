@@ -11,17 +11,18 @@
 }
 
 .find .header-btn__icon {
-  margin: 10px;
+  margin: 0 10px;
   font-size: 22px;
 }
 
 .find .header-btn__title {
+  margin-top: 5px;
   font-size: 11px;
 }
 
 .find .find__recommended {
   margin-top: 23px;
-  border-top: 1px solid #f7f7f7;
+  border-top: 1.7px solid #f7f7f7;
 }
 
 .find .find__title {
