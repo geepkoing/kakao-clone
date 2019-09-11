@@ -1,0 +1,48 @@
+.status-bar {
+  background-color: #9aadbc;
+}
+
+.chat__body {
+  background-color: #b2c7da;
+}
+
+.message .m-avatar {
+  width: 35px;
+  border-radius: 37%;
+  width: 40px;
+}
+
+.chat__write {
+  background-color: #fcfcfc;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  padding: 7px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat__write i {
+  font-size: 22px;
+  margin: 6px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.chat__write-column:nth-child(2) {
+  width: 80%;
+}
+
+.chat__write .chat__write-input {
+  width: 100%;
+  padding: 10px;
+  border: 14px;
+}
+
+.chat__write .chat__write-input:focus {
+  outline: none;
+}
