@@ -1,5 +1,5 @@
 @import "reset.css";
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,500,600,700&display=swap");
 @import "status-bar.css";
 @import "header.css";
 @import "nav-bar.css";
@@ -9,6 +9,7 @@
 @import "more.css";
 @import "settings.css";
 @import "chat.css";
+@import "mobile.css";
 
 body {
   color: #1a1a1a;
