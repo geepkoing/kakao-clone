@@ -124,3 +124,43 @@
   border-top-right-radius: 0px;
   border-bottom-right-radius: 15px;
 }
+
+/* animation */
+
+.incoming-message {
+  animation: 1s moveInRight ease-in-out;
+}
+
+.sent-message {
+  animation: 1s moveInLeft ease-in-out;
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  80% {
+    opacity: 1;
+    transform: translateX(20%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  80% {
+    opacity: 0.6;
+    transform: translateX(-20%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
